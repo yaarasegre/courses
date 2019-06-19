@@ -29,7 +29,7 @@ Searching the search space: “first-fail” – search first where you are more
 Searching in constraint programming :
 *	variable/value labeling: first choose variable, then assign value. (start with variables with the smallest domain, choose value with the least variable)
 *	value/variable labeling: first choose value, then assign it to a variable
-*	domain splitting 
+*	domain splitting (assigning a weak constraint, lake x > 10, and not an actual value)
 *	focusing on the objective 
 *	symmetry breaking during search 
 *	randomization and restarts
