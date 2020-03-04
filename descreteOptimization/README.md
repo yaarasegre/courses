@@ -1,3 +1,6 @@
+# Course Notes 
+https://www.coursera.org/learn/discrete-optimization
+
 Linear programming, Constraint programming, MIP: Finds optimal solution for small problems but doesn’t scale well
 
 Local search: Finds solution with lower quality, but scales better.
@@ -33,4 +36,13 @@ Searching in constraint programming :
 *	focusing on the objective 
 *	symmetry breaking during search 
 *	randomization and restarts
+
+# Local Search
+### Tabu search
+Keep a list of nodes you have already visited, and don't go back there.
+*  short term memory:
+  * For efficiency, keep only the last ones 
+  * More efficient: keep an abstraction of the suffix. for example: not allowing to repeat a swap for K moves.
+* Aspiration: takin a move that is tabu, but leads to a very good objective function
+* Diffrentiation: the term for calculating the objective function of potential swaps without performing them.
 
