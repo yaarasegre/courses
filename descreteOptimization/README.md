@@ -45,4 +45,7 @@ Keep a list of nodes you have already visited, and don't go back there.
   * More efficient: keep an abstraction of the suffix. for example: not allowing to repeat a swap for K moves.
 * Aspiration: takin a move that is tabu, but leads to a very good objective function
 * Diffrentiation: the term for calculating the objective function of potential swaps without performing them.
-
+* Techniques that are useful in many meta heuristics:
+	* Intensification: Long term memory: go back to good solutions
+	* Diversification: randomly change variable 
+	* strategic oscilation: change the % of time spent in feasible/infeasible regions
